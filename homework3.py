@@ -1,9 +1,7 @@
 name = 'name:Андрей'
 print(name)
-age='age=21'
-print(age)
-age = [21]
-age = [21+1]
-print('new_age=', age )
+age= 21
+print('age=',age)
+print('new_age=', [age + 1])
 is_student=True
 print('is_student=',(bool(is_student)))
